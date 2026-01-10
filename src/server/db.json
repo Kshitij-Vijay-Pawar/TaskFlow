@@ -1,0 +1,161 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Finish Todo App UI",
+      "description": "Build sidebar, task list, and task details panel",
+      "status": "pending",
+      "priority": "high",
+      "tags": [
+        "tag-1",
+        "tag-2",
+        "tag-3",
+        "tag-1767815775527",
+        "tag-1767815840777"
+      ],
+      "dueDate": "2026-01-03",
+      "createdAt": "2026-01-01T09:30:00",
+      "updatedAt": "2026-01-05T11:02:04.733Z",
+      "subtasks": [
+        {
+          "id": 101,
+          "title": "Design sidebar layout",
+          "completed": true
+        },
+        {
+          "id": 102,
+          "title": "Build task list UI",
+          "completed": false
+        },
+        {
+          "id": 103,
+          "title": "Create task details panel",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Integrate json-server backend",
+      "description": "Setup API, connect frontend using Axios",
+      "status": "completed",
+      "priority": "medium",
+      "tags": [
+        "tag-3"
+      ],
+      "dueDate": "2026-01-01",
+      "createdAt": "2025-12-31T18:00:00",
+      "updatedAt": "2026-01-01T11:00:00",
+      "subtasks": [
+        {
+          "id": 201,
+          "title": "Create db.json",
+          "completed": true
+        },
+        {
+          "id": 202,
+          "title": "Setup Axios API layer",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Implement Light / Dark Theme",
+      "description": "Theme toggle using CSS variables and localStorage",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [
+        "tag-2",
+        "tag-3"
+      ],
+      "dueDate": "2026-01-05",
+      "createdAt": "2026-01-01T12:15:00",
+      "updatedAt": "2026-01-06T06:57:46.975Z",
+      "subtasks": [
+        {
+          "id": 301,
+          "title": "Define CSS variables",
+          "completed": true
+        },
+        {
+          "id": 302,
+          "title": "Persist theme in localStorage",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Prepare Stats Dashboard",
+      "description": "Show total tasks, completed tasks, and progress graph",
+      "status": "pending",
+      "priority": "low",
+      "tags": [
+        "tag-2"
+      ],
+      "dueDate": "2026-01-10",
+      "createdAt": "2026-01-01T14:45:00",
+      "updatedAt": "2026-01-01T14:45:00",
+      "subtasks": []
+    },
+    {
+      "id": "14f1",
+      "title": "kshitij's task",
+      "description": "my name is kshitij and this is my task ",
+      "priority": "high",
+      "dueDate": "2026-01-13",
+      "tags": [
+        "tag-1"
+      ],
+      "subtasks": [
+        {
+          "id": 1767612461927,
+          "title": "hello",
+          "completed": false
+        }
+      ],
+      "status": "pending",
+      "createdAt": "2026-01-05T11:27:35.687Z",
+      "updatedAt": "2026-01-05T11:27:44.860Z"
+    },
+    {
+      "id": "380a",
+      "title": "asdad",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "",
+      "tags": [
+        "tag-1",
+        "tag-2",
+        "tag-3"
+      ],
+      "subtasks": [],
+      "status": "pending",
+      "createdAt": "2026-01-05T12:15:32.653Z",
+      "updatedAt": "2026-01-05T12:15:32.653Z"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag-2",
+      "name": "API",
+      "color": "red"
+    },
+    {
+      "id": "tag-3",
+      "name": "My Tag",
+      "color": "yellow"
+    },
+    {
+      "id": "tag-1767815775527",
+      "name": "add",
+      "color": "blue"
+    },
+    {
+      "id": "tag-1767815840777",
+      "name": "add new",
+      "color": "blue"
+    }
+  ]
+}

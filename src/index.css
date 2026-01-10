@@ -1,0 +1,70 @@
+
+/* 1️⃣ Google Font MUST be at the very top */
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+/* 3️⃣ Tailwind v4 theme customization */
+@theme {
+  --font-inter: "Inter", sans-serif;
+
+  /* Optional but recommended for Inter */
+  --font-inter--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  --font-inter--font-variation-settings: "opsz" 32;
+}
+
+
+
+:root {
+  
+  /* LIGHT THEME */
+--bg: #f5f7f6;              /* App background */
+--surface: #ffffff;        /* Cards / panels */
+--sidebar: #f1f3f2;        /* Left menu */
+--hover:#f1f3f2;
+--border: #e5e7eb;         /* Dividers */
+
+--text: #111827;           /* Main text */
+--text-muted: #6b7280;     /* Secondary text */
+
+--primary: #3b82f6;        /* Blue (buttons, active) */
+--primary-soft: #dbeafe;   /* Hover bg */
+
+--success: #22c55e;        /* Completed task */
+--low: #facc15;        /* Due / highlight */
+--medium: #fb923c;
+--high: #ef4444;         /* Delete */
+
+--tag-blue: #93c5fd;
+--tag-red: #fca5a5;
+--tag-yellow: #fde68a;
+
+}
+
+[data-theme="dark"] {
+
+/* DARK THEME */
+--bg: #0f172a;              /* App background */
+--surface: #2a2a2a;        /* Cards / panels */
+--sidebar: #060b21;        /* Left menu */
+--hover:#1e293b72;
+--border: #1e293b;         /* Dividers */
+
+--text: #e5e7eb;           /* Main text */
+--text-muted: #9ca3af;     /* Secondary text */
+
+--primary: #60a5fa;        /* Softer blue for dark */
+--primary-soft: #1e3a8a;   /* Hover bg */
+
+--success: #22c55e;
+--low: #facc15;
+--medium: #f97316;
+--high: #f87171;
+
+--tag-blue: #1d4ed8;
+--tag-red: #7f1d1d;
+--tag-yellow: #78350f;
+
+}
+
+
